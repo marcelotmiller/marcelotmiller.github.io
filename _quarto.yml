@@ -9,12 +9,15 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - resources_stuff.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
+    
 
   
 # ~ additional metadata excluded for brevity ~

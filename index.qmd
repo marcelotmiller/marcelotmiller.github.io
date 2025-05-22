@@ -1,12 +1,12 @@
 ---
 title: "I am a 4th year undergraduate student at the University of California, Santa Barbara, pursuing a major in Environmental Studies (B.S), with an outside emphasis in Chemistry. I love to get active, mainly in the form of weightlifting at the local rec-cen on campus, but I'll always find time to get in a hike, camping trip, pick-up game of football, or anything that comes my way. I love studying, learning, improving, and truly challenging myself."
 
-image: /Users/marcelomiller/Downloads/IMG_5781 2.HEIC
+image: mtmheadshot.jpeg
 toc: false
 about: 
-  template: jolla
-  image-shape: rounded
-  image-width: 17em
+  template: solana
+  image-shape: rectangle
+  image-width: 20em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/marcelo-miller-a84160312/
@@ -15,11 +15,3 @@ about:
     - text: Email
       href: mailto:marcelotmiller@gmail.com
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
