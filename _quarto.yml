@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "marcelotmiller.github.io"
@@ -15,5 +16,6 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+  
+# ~ additional metadata excluded for brevity ~
 
