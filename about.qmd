@@ -1,9 +1,34 @@
 ---
-title: "About"
+title: "All About Me"
 ---
 
-About this site
+If I had to sum up the few parts of my day that represent my life right now, it would be studying at the UCSB library, walking around IV with my beautiful girlfriend, vising my family on the weekend, and cracking down a couple drinks from the legendary beverage mini fridge in my college apartment.
 
-```{r}
-1 + 1
-```
+---
+title: "Glimpse into my daily life!"
+
+image: mtmfam.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: rounded
+  image-width: 10em
+---
+
+---
+image: mtmmazzy.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: rounded
+  image-width: 10em
+---
+
+---
+image: mtmsunsetride.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: rounded
+  image-width: 10em
+---

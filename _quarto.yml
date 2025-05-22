@@ -10,10 +10,13 @@ website:
         text: Home
       - about.qmd
       - resources_stuff.qmd
+        
+       
+        
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
     page-layout: full

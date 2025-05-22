@@ -1,12 +1,12 @@
 ---
-title: "I am a 4th year undergraduate student at the University of California, Santa Barbara, pursuing a major in Environmental Studies (B.S), with an outside emphasis in Chemistry. I love to get active, mainly in the form of weightlifting at the local rec-cen on campus, but I'll always find time to get in a hike, camping trip, pick-up game of football, or anything that comes my way. I love studying, learning, improving, and truly challenging myself."
+title: "Hey everyone, my name is Marcelo. I am a 4th year undergraduate student at the University of California, Santa Barbara, pursuing a major in Environmental Studies (B.S), with an outside emphasis in Chemistry. Feel free to browse and get to know me a bit more!"
 
 image: mtmheadshot.jpeg
 toc: false
 about: 
-  template: solana
-  image-shape: rectangle
-  image-width: 20em
+  template: jolla
+  image-shape: rounded
+  image-width: 15em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/marcelo-miller-a84160312/
@@ -14,4 +14,6 @@ about:
       href: https://github.com/marcelotmiller/marcelotmiller.github.io.git
     - text: Email
       href: mailto:marcelotmiller@gmail.com
+    - text: Resume
+      href: https://drive.google.com/file/d/1I9_3-M7iU_OrCGvNbiy9b7OCIIWlDImh/view?usp=share_link
 ---
