@@ -1,12 +1,12 @@
 ---
 title: "Hey everyone, my name is Marcelo. I am a 4th year undergraduate student at the University of California, Santa Barbara, pursuing a major in Environmental Studies (B.S), with an outside emphasis in Chemistry. Feel free to browse and get to know me a bit more!"
 
-image: mtmheadshot.jpeg
+image: IMG_6876.jpeg
 toc: false
 about: 
   template: jolla
   image-shape: rounded
-  image-width: 15em
+  image-width: 30em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/marcelo-miller-a84160312/
