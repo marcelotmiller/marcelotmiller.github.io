@@ -9,9 +9,9 @@
   {
     "objectID": "interactive_map.html",
     "href": "interactive_map.html",
-    "title": "interactive_map",
+    "title": "Places to Be",
     "section": "",
-    "text": "library(leaflet)\n\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add a basemap\n  addMarkers(lng = -119.8489, lat = 34.4139, popup = \"UCSB, California, USA\") %&gt;%     # UCSB\n  addMarkers(lng = 12.3959, lat = 42.9380, popup = \"Umbria, Italy\") %&gt;%               # Umbria, Italy\n  addMarkers(lng = 135.5022, lat = 34.6937, popup = \"Osaka, Japan\") %&gt;%               # Osaka, Japan\n  addMarkers(lng = 4.9041, lat = 52.3676, popup = \"Amsterdam, Netherlands\") %&gt;%       # Amsterdam, Netherlands\n  addMarkers(lng = -9.5018, lat = 52.0592, popup = \"Killarney, Ireland\") %&gt;%          # Killarney, Ireland\n  addMarkers(lng = -3.1883, lat = 55.9533, popup = \"Edinburgh, Scotland\") %&gt;%         # Edinburgh, Scotland\n  addMarkers(lng = -3.7837, lat = 52.1307, popup = \"Wales, United Kingdom\") %&gt;%       # Wales (general)\n  addMarkers(lng = -89.0070, lat = 20.9674, popup = \"Mérida, Mexico\") %&gt;%             # Merida, Mexico\n  addMarkers(lng = -119.2921, lat = 34.2746, popup = \"Ventura, California, USA\") %&gt;%  # Ventura, California\n  addMarkers(lng = -115.5708, lat = 51.1784, popup = \"Banff, Canada\")                 # Banff, Canada"
+    "text": "These are some of the places that I have been fortunate enough to travel to.\nEach has shaped be differently, contributing to a part of who I am, which I appreciate immensely.\n\n\n\n\n\n\n\n🎧 Song: Places to Be by Fred Again"
   },
   {
     "objectID": "resources_stuff.html",

@@ -1,15 +1,18 @@
 ---
-title: "interactive_map"
+title: "Places to Be"
 editor: visual
 ---
 
-```{r}
-library(leaflet)
+These are some of the places that I have been fortunate enough to travel to.
 
+Each has shaped be differently, contributing to a part of who I am, which I appreciate immensely.
+
+```{r echo=FALSE}
+library(leaflet)
 leaflet() %>%
-  addTiles() %>%  # Add a basemap
+  addProviderTiles("Esri.WorldImagery") %>%  # Add a basemap
   addMarkers(lng = -119.8489, lat = 34.4139, popup = "UCSB, California, USA") %>%     # UCSB
-  addMarkers(lng = 12.3959, lat = 42.9380, popup = "Umbria, Italy") %>%               # Umbria, Italy
+  addMarkers(lng = 12.3959, lat = 42.9380, popup = "Umbria, Italy. Stayed in a local AirBnB, where we were hosted by an incredibly welcoming family. Enrolled in a part-time youth program where I have fond memories playing soccer with the other kids. I did not know Italian, or much Spanish, so the language barrier was huge, yet I experienced no judgement or shame whatsoever.") %>%               # Umbria, Italy
   addMarkers(lng = 135.5022, lat = 34.6937, popup = "Osaka, Japan") %>%               # Osaka, Japan
   addMarkers(lng = 4.9041, lat = 52.3676, popup = "Amsterdam, Netherlands") %>%       # Amsterdam, Netherlands
   addMarkers(lng = -9.5018, lat = 52.0592, popup = "Killarney, Ireland") %>%          # Killarney, Ireland
@@ -21,3 +24,9 @@ leaflet() %>%
 
 
 ```
+
+### 🎧 Song: *Places to Be* by Fred Again
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6waKgb4exN2dPQGQ7NQIZd?utm_source=generator" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media">
+
+</iframe>
