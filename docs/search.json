@@ -5,5 +5,19 @@
     "title": "Glimpse into my daily life!",
     "section": "",
     "text": "If I had to sum up the few parts of my day that represent my life right now, it would be studying at the UCSB library, walking around IV with my beautiful girlfriend, vising my family on the weekend, and lifting in the local rec cen whenever I find possible!"
+  },
+  {
+    "objectID": "interactive_map.html",
+    "href": "interactive_map.html",
+    "title": "interactive_map",
+    "section": "",
+    "text": "library(leaflet)\n\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add a basemap\n  addMarkers(lng = -119.8489, lat = 34.4139, popup = \"UCSB, California, USA\") %&gt;%     # UCSB\n  addMarkers(lng = 12.3959, lat = 42.9380, popup = \"Umbria, Italy\") %&gt;%               # Umbria, Italy\n  addMarkers(lng = 135.5022, lat = 34.6937, popup = \"Osaka, Japan\") %&gt;%               # Osaka, Japan\n  addMarkers(lng = 4.9041, lat = 52.3676, popup = \"Amsterdam, Netherlands\") %&gt;%       # Amsterdam, Netherlands\n  addMarkers(lng = -9.5018, lat = 52.0592, popup = \"Killarney, Ireland\") %&gt;%          # Killarney, Ireland\n  addMarkers(lng = -3.1883, lat = 55.9533, popup = \"Edinburgh, Scotland\") %&gt;%         # Edinburgh, Scotland\n  addMarkers(lng = -3.7837, lat = 52.1307, popup = \"Wales, United Kingdom\") %&gt;%       # Wales (general)\n  addMarkers(lng = -89.0070, lat = 20.9674, popup = \"Mérida, Mexico\") %&gt;%             # Merida, Mexico\n  addMarkers(lng = -119.2921, lat = 34.2746, popup = \"Ventura, California, USA\") %&gt;%  # Ventura, California\n  addMarkers(lng = -115.5708, lat = 51.1784, popup = \"Banff, Canada\")                 # Banff, Canada"
+  },
+  {
+    "objectID": "resources_stuff.html",
+    "href": "resources_stuff.html",
+    "title": "Caffeine Consumption - Life of a Busy College Student",
+    "section": "",
+    "text": "During the last month and a half I have recorded the amount of caffeine that I, a full time college senior and part time worker, has consumed. I have included the potential variables of whether or not I have homework or an exam due, how many classes I had, if I worked out that day, my wake up time, along with hours slept.\n\n\n\ndraft 1"
   }
 ]

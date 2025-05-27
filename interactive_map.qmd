@@ -1,0 +1,23 @@
+---
+title: "interactive_map"
+editor: visual
+---
+
+```{r}
+library(leaflet)
+
+leaflet() %>%
+  addTiles() %>%  # Add a basemap
+  addMarkers(lng = -119.8489, lat = 34.4139, popup = "UCSB, California, USA") %>%     # UCSB
+  addMarkers(lng = 12.3959, lat = 42.9380, popup = "Umbria, Italy") %>%               # Umbria, Italy
+  addMarkers(lng = 135.5022, lat = 34.6937, popup = "Osaka, Japan") %>%               # Osaka, Japan
+  addMarkers(lng = 4.9041, lat = 52.3676, popup = "Amsterdam, Netherlands") %>%       # Amsterdam, Netherlands
+  addMarkers(lng = -9.5018, lat = 52.0592, popup = "Killarney, Ireland") %>%          # Killarney, Ireland
+  addMarkers(lng = -3.1883, lat = 55.9533, popup = "Edinburgh, Scotland") %>%         # Edinburgh, Scotland
+  addMarkers(lng = -3.7837, lat = 52.1307, popup = "Wales, United Kingdom") %>%       # Wales (general)
+  addMarkers(lng = -89.0070, lat = 20.9674, popup = "Mérida, Mexico") %>%             # Merida, Mexico
+  addMarkers(lng = -119.2921, lat = 34.2746, popup = "Ventura, California, USA") %>%  # Ventura, California
+  addMarkers(lng = -115.5708, lat = 51.1784, popup = "Banff, Canada")                 # Banff, Canada
+
+
+```

@@ -1,3 +1,7 @@
 ---
 title: "Caffeine Consumption - Life of a Busy College Student"
 ---
+
+During the last month and a half I have recorded the amount of caffeine that I, a full time college senior and part time worker, has consumed. I have included the potential variables of whether or not I have homework or an exam due, how many classes I had, if I worked out that day, my wake up time, along with hours slept.
+
+![draft 1](Caffeine Consumed vs HW_EXAM Due.jpeg)

@@ -1,4 +1,0 @@
----
-title: "Places I've Seen - Those I Want to See"
-editor: visual
----

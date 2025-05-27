@@ -10,7 +10,7 @@ website:
         text: Home
       - about.qmd
       - resources_stuff.qmd
-        
+      - interactive_map.qmd
        
         
 
