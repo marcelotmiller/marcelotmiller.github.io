@@ -1,5 +1,5 @@
 ---
-title: "Places to Be"
+title: "Making Anywhere Feel like HOME"
 editor: visual
 ---
 
@@ -9,24 +9,32 @@ Each has shaped be differently, contributing to a part of who I am, which I appr
 
 ```{r echo=FALSE}
 library(leaflet)
-leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%  # Add a basemap
-  addMarkers(lng = -119.8489, lat = 34.4139, popup = "UCSB, California, USA") %>%     # UCSB
-  addMarkers(lng = 12.3959, lat = 42.9380, popup = "Umbria, Italy. Stayed in a local AirBnB, where we were hosted by an incredibly welcoming family. Enrolled in a part-time youth program where I have fond memories playing soccer with the other kids. I did not know Italian, or much Spanish, so the language barrier was huge, yet I experienced no judgement or shame whatsoever.") %>%               # Umbria, Italy
-  addMarkers(lng = 135.5022, lat = 34.6937, popup = "Osaka, Japan") %>%               # Osaka, Japan
-  addMarkers(lng = 4.9041, lat = 52.3676, popup = "Amsterdam, Netherlands") %>%       # Amsterdam, Netherlands
-  addMarkers(lng = -9.5018, lat = 52.0592, popup = "Killarney, Ireland") %>%          # Killarney, Ireland
-  addMarkers(lng = -3.1883, lat = 55.9533, popup = "Edinburgh, Scotland") %>%         # Edinburgh, Scotland
-  addMarkers(lng = -3.7837, lat = 52.1307, popup = "Wales, United Kingdom") %>%       # Wales (general)
-  addMarkers(lng = -89.0070, lat = 20.9674, popup = "Mérida, Mexico") %>%             # Merida, Mexico
-  addMarkers(lng = -119.2921, lat = 34.2746, popup = "Ventura, California, USA") %>%  # Ventura, California
-  addMarkers(lng = -115.5708, lat = 51.1784, popup = "Banff, Canada")                 # Banff, Canada
+leaflet() |> 
+  addProviderTiles("Esri.WorldImagery") |>   # Add a basemap
+  addMarkers(lng = -119.8489, lat = 34.4139, popup = "UCSB, California, USA") |>      # UCSB
+  addMarkers(lng = 12.3959, lat = 42.9380, popup = "Umbria, Italy. Stayed in a local AirBnB, where we were hosted by an incredibly welcoming family. Enrolled in a part-time youth program where I have fond memories playing soccer with the other kids. I did not know Italian, or much Spanish, so the language barrier was huge, yet I experienced no judgement or shame whatsoever.") |>                # Umbria, Italy
+  addMarkers(lng = 135.5022, lat = 34.6937, popup = "Osaka, Japan. Stayed with my grandpa and his family. Also traveled on the countryside to a small fishing town named Mushiage, where we stayed for a weekend inside a samuri house.") |>                # Osaka, Japan
+  addMarkers(lng = 4.9041, lat = 52.3676, popup = "Amsterdam, Netherlands. Visited my uncle, cousin, and other family. I was relatively young but remember biking through the city and walking alongside the canals vividly.  ") |>        # Amsterdam, Netherlands
+  addMarkers(lng = -9.5018, lat = 52.0592, popup = "Killarney, Ireland. My dad and brother went on a week long bike ride throughout the countryside of Ireland while my oldest brother, my mom, and I stayed and explored the town.") |>           # Killarney, Ireland
+  addMarkers(lng = -3.1883, lat = 55.9533, popup = "Edinburgh, Scotland. I went on a week long bike right with my dad through Scotland, camping alongside the road and sleeping in local hostels.") |>          # Edinburgh, Scotland
+  addMarkers(lng = -3.7837, lat = 52.1307, popup = "Wales, United Kingdom") |>        # Wales (general)
+  addMarkers(lng = -89.0070, lat = 20.9674, popup = "Mérida, Mexico. This is where my mom is originally from, so I have travelled here several times. The last time I went was two years ago, where I traveled alone with both of my grandparents, and spent two weeks with my cousins.") |>              # Merida, Mexico
+  addMarkers(lng = -119.2921, lat = 34.2746, popup = "Santa Paula, California, USA. This is my hometown. I lived here for 17 years until moving out to UCSB, however I visit at least once a month to see my immediate family. ") |>   # Ventura, California
+  addMarkers(lng = -115.5708, lat = 51.1784, popup = "Banff, Canada. My immediate family and I took a month long road trip along the coastal highway up through Oregon, and Washington. After riding through the western portion of Canada we travelled back down through Montana, Colorado, and Utah.")                 # Banff, Canada
 
 
 ```
 
-### 🎧 Song: *Places to Be* by Fred Again
+### 
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6waKgb4exN2dPQGQ7NQIZd?utm_source=generator" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media">
+🎧 **My House Playlist;**
+
+Making Anywhere Feel like Home;
+
+This is the playlist that I listen to on the daily, despite where I may be.
+
+::: embedded-html
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0pWwYNJ8ITj4v1blv0hK3p?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
 
 </iframe>
+:::

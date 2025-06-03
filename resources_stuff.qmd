@@ -4,4 +4,40 @@ title: "Caffeine Consumption - Life of a Busy College Student"
 
 During the last month and a half I have recorded the amount of caffeine that I, a full time college senior and part time worker, has consumed. I have included the potential variables of whether or not I have homework or an exam due, how many classes I had, if I worked out that day, my wake up time, along with hours slept.
 
-![draft 1](Caffeine Consumed vs HW_EXAM Due.jpeg)
+The primary predictor variable that I chose to analyze was whether homework or an exam was due that day, with the response variable being the caffeine intake in mg.
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+
+
+library(tidyverse)
+# loading and cleaning data
+data <- read_csv("data_trial_june1st")
+
+clean_data <- data |>
+  filter(!is.na(`Caffeine (mg)`), !is.na(`HW/Exam Due`)) |>
+  select(`HW/Exam Due`, `Caffeine (mg)`)
+
+# summarize the mean of the caffeine consumption in Yes/No groups
+caffeine_summary <- clean_data |>
+  group_by(`HW/Exam Due`) |>
+  summarize(mean_caffeine = mean(`Caffeine (mg)`), .groups = "drop")
+
+# create plot with two categories and clear tick marks for caffeine (mg) on y-axis
+ggplot(clean_data, aes(x = `HW/Exam Due`, y = `Caffeine (mg)`, color = `HW/Exam Due`)) +
+  geom_jitter(width = 0.2, size = 2, alpha = 0.7) +
+  stat_summary(fun = mean, geom = "crossbar", width = 0.5, fatten = 2, color = "black") +
+  scale_color_manual(values = c("YES" = "chartreuse3", "NO" = "brown1")) +
+  scale_y_continuous(limits = c(0, 400), breaks = seq(0, 400, 50)) +
+  labs(
+    title = "Caffeine Consumed on Days With/Without HW/Exams",
+    x = "Homework or Exam Due?",
+    y = "Caffeine Intake (mg)", 
+    caption = "Figure 1. Caffeine intake on days that involve an exam or homework being due and days that do not. \nEach point represents the caffeine consumption for one day (mg). \nThe horizontal black bars represent the means for each category. "
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 12), plot.caption = element_text(size = 10, hjust = 0, margin = margin(t = 10))
+  )
+
+```
