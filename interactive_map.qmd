@@ -31,7 +31,7 @@ leaflet() |>
 
 Making Anywhere Feel like Home;
 
-This is the playlist that I listen to on the daily, despite where I may be.
+This is the playlist that I listen to on the daily, regardless of where I may be.
 
 ::: embedded-html
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0pWwYNJ8ITj4v1blv0hK3p?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
