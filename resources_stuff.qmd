@@ -6,7 +6,7 @@ During the last month and a half I have recorded the amount of caffeine that I, 
 
 The primary predictor variable that I chose to analyze was whether homework or an exam was due that day, with the response variable being the caffeine intake in mg.
 
-```{r warning=FALSE, echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 
 
 library(tidyverse)
@@ -39,5 +39,4 @@ ggplot(clean_data, aes(x = `HW/Exam Due`, y = `Caffeine (mg)`, color = `HW/Exam 
     legend.position = "none",
     plot.title = element_text(face = "bold", hjust = 0.5, size = 12), plot.caption = element_text(size = 10, hjust = 0, margin = margin(t = 10))
   )
-
 ```
