@@ -31,7 +31,7 @@ leaflet() |>
 
 Making Anywhere Feel like Home;
 
-Having travelled a fair amount, I've come to realize that while amazing to be able to experience the joy of expxloring new places, there is never going to be somewhere that can replace my home. As a tool of grounding, recreation, and pure leasiure, this is the playlist that I created with the intention of being able to feel at home and listen to on the daily, regardless of where I may be.
+Having traveled a fair amount, I've come to realize that while amazing to be able to experience the joy of exploring new places, there is never going to be somewhere that can replace my home. As a tool of grounding, recreation, and pure leisure, this is the playlist that I created with the intention of being able to feel at home and listen to on the daily, regardless of where I may be.
 
 ::: embedded-html
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0pWwYNJ8ITj4v1blv0hK3p?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
