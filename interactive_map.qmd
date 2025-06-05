@@ -5,7 +5,7 @@ editor: visual
 
 These are some of the places that I have been fortunate enough to travel to.
 
-Each has shaped be differently, contributing to a part of who I am, which I appreciate immensely.
+Each has shaped me differently, contributing to a part of who I am, which I appreciate immensely.
 
 ```{r echo=FALSE}
 library(leaflet)
