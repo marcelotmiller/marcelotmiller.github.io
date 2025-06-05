@@ -4,20 +4,34 @@
     "href": "about.html",
     "title": "Glimpse into my daily life!",
     "section": "",
-    "text": "If I had to sum up the few parts of my day that represent my life right now, it would be studying at the UCSB library, walking around IV with my beautiful girlfriend, vising my family on the weekend, and lifting in the local rec cen whenever I find possible!"
+    "text": "If I had to sum up the few parts of my day that represent my life right now, it would be studying at the UCSB library, walking around IV with my beautiful girlfriend, vising my family on my free weekends, and lifting in the local rec cen whenever I find possible!"
   },
   {
     "objectID": "interactive_map.html",
     "href": "interactive_map.html",
     "title": "Making Anywhere Feel like HOME",
     "section": "",
-    "text": "These are some of the places that I have been fortunate enough to travel to.\nEach has shaped be differently, contributing to a part of who I am, which I appreciate immensely.\n\n\n\n\n\n\n\n\n🎧 My House Playlist;\nMaking Anywhere Feel like Home;\nThis is the playlist that I listen to on the daily, regardless of where I may be."
+    "text": "These are some of the places that I have been fortunate enough to travel to.\nEach has shaped be differently, contributing to a part of who I am, which I appreciate immensely.\n\n\n\n\n\n\n\n\n🎧 My House Playlist;\nMaking Anywhere Feel like Home;\nHaving travelled a fair amount, I’ve come to realize that while amazing to be able to experience the joy of expxloring new places, there is never going to be somewhere that can replace my home. As a tool of grounding, recreation, and pure leasiure, this is the playlist that I created with the intention of being able to feel at home and listen to on the daily, regardless of where I may be."
   },
   {
     "objectID": "resources_stuff.html",
     "href": "resources_stuff.html",
     "title": "Caffeine Consumption - Life of a Busy College Student",
     "section": "",
-    "text": "During the last month and a half I have recorded the amount of caffeine that I, a full time college senior and part-time student worker, has consumed. I have included the potential variables of whether or not I have homework or an exam due, how many classes I had, if I worked out that day, my wake up time, along with hours slept.\nThe primary predictor variable that I chose to analyze was whether homework or an exam was due that day, with the response variable being the caffeine intake in mg."
+    "text": "During the last month and a half I have recorded the amount of caffeine that I, a full time college senior and part-time student worker, has consumed. I have included the potential variables of whether or not I have homework or an exam due, how many classes I had, if I worked out that day, my wake up time, along with hours slept.\nThe primary predictor variable that I chose to analyze was whether homework or an exam was due that day, with the response variable being the caffeine intake in mg.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1. Summary of Welch t-test comparing caffeine intake.\n\n\n\n\n\n\n\n\n\nTest\np-value\nt-statistic\nDegrees of Freedom\nConfidence Interval\n\n\n\n\nWelch Two Sample t-test\n0.008187\n-2.792\n37.65\n[-141.42, -22.51]"
+  },
+  {
+    "objectID": "about.html#my-daily-commute-back-from-campus.mazzy-girlfriends-cat-eating-my-homework-jkmazzy-eating-hw-width450",
+    "href": "about.html#my-daily-commute-back-from-campus.mazzy-girlfriends-cat-eating-my-homework-jkmazzy-eating-hw-width450",
+    "title": "Glimpse into my daily life!",
+    "section": "{#mazzy eating hw width=“450”}",
+    "text": "{#mazzy eating hw width=“450”}"
+  },
+  {
+    "objectID": "about.html#my-daily-commute-back-from-campus.mazzy-girlfriends-cat-eating-my-homework-jk",
+    "href": "about.html#my-daily-commute-back-from-campus.mazzy-girlfriends-cat-eating-my-homework-jk",
+    "title": "Glimpse into my daily life!",
+    "section": "",
+    "text": "On the left is a picture of my daily back to my house on Trigo Road from campus after a long day of studying. On the right is Mazzy (my partner’s cat) attempting to distract me from my homework."
   }
 ]

@@ -145,12 +145,49 @@ ul.task-list li input[type="checkbox"] {
 
 <p>During the last month and a half I have recorded the amount of caffeine that I, a full time college senior and part-time student worker, has consumed. I have included the potential variables of whether or not I have homework or an exam due, how many classes I had, if I worked out that day, my wake up time, along with hours slept.</p>
 <p>The primary predictor variable that I chose to analyze was whether homework or an exam was due that day, with the response variable being the caffeine intake in mg.</p>
+<div class="columns">
+<div class="column" style="width:55%;">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="resources_stuff_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="resources_stuff_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="resources_stuff_files/figure-html/unnamed-chunk-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="resources_stuff_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Table 1. Summary of Welch t-test comparing caffeine intake.</caption>
+<colgroup>
+<col style="width: 28%">
+<col style="width: 10%">
+<col style="width: 14%">
+<col style="width: 22%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Test</th>
+<th style="text-align: right;">p-value</th>
+<th style="text-align: right;">t-statistic</th>
+<th style="text-align: right;">Degrees of Freedom</th>
+<th style="text-align: left;">Confidence Interval</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Welch Two Sample t-test</td>
+<td style="text-align: right;">0.008187</td>
+<td style="text-align: right;">-2.792</td>
+<td style="text-align: right;">37.65</td>
+<td style="text-align: left;">[-141.42, -22.51]</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </div>
@@ -579,7 +616,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

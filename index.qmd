@@ -15,5 +15,5 @@ about:
     - text: Email
       href: mailto:marcelotmiller@gmail.com
     - text: Resume
-      href: https://drive.google.com/file/d/1I9_3-M7iU_OrCGvNbiy9b7OCIIWlDImh/view?usp=share_link
+      href: MTM_RESUME.pdf
 ---

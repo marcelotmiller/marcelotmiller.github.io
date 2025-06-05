@@ -7,36 +7,62 @@ During the last month and a half I have recorded the amount of caffeine that I, 
 The primary predictor variable that I chose to analyze was whether homework or an exam was due that day, with the response variable being the caffeine intake in mg.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-
-
+# Load libraries
 library(tidyverse)
-# loading and cleaning data
+
+# Load and clean data
 data <- read_csv("data_trial_june1st")
 
 clean_data <- data |>
   filter(!is.na(`Caffeine (mg)`), !is.na(`HW/Exam Due`)) |>
   select(`HW/Exam Due`, `Caffeine (mg)`)
 
-# summarize the mean of the caffeine consumption in Yes/No groups
+# Summarize mean caffeine consumption
 caffeine_summary <- clean_data |>
   group_by(`HW/Exam Due`) |>
   summarize(mean_caffeine = mean(`Caffeine (mg)`), .groups = "drop")
 
-# create plot with two categories and clear tick marks for caffeine (mg) on y-axis
+# Perform Welch Two Sample t-test
+t_test_result <- t.test(`Caffeine (mg)` ~ `HW/Exam Due`, data = clean_data)
+
+# Create summary table
+summary_table <- tibble(
+  `Test` = "Welch Two Sample t-test",
+  `p-value` = signif(t_test_result$p.value, 4),
+  `t-statistic` = round(t_test_result$statistic, 3),
+  `Degrees of Freedom` = round(t_test_result$parameter, 2),
+  `Confidence Interval` = paste0("[", round(t_test_result$conf.int[1], 2), ", ", round(t_test_result$conf.int[2], 2), "]")
+)
+```
+
+::::: columns
+::: {.column width="55%"}
+```{r echo=FALSE, warning=FALSE}
+# Plot caffeine data
 ggplot(clean_data, aes(x = `HW/Exam Due`, y = `Caffeine (mg)`, color = `HW/Exam Due`)) +
   geom_jitter(width = 0.2, size = 2, alpha = 0.7) +
   stat_summary(fun = mean, geom = "crossbar", width = 0.5, fatten = 2, color = "black") +
-  scale_color_manual(values = c("YES" = "chartreuse3", "NO" = "brown1")) +
+  scale_color_manual(values = c("YES" = "brown1", "NO" = "darkgreen")) +
   scale_y_continuous(limits = c(0, 400), breaks = seq(0, 400, 50)) +
   labs(
     title = "Caffeine Consumed on Days With/Without HW/Exams",
     x = "Homework or Exam Due?",
     y = "Caffeine Intake (mg)", 
-    caption = "Figure 1. Caffeine intake on days that involve an exam or homework being due and days that do not. \nEach point represents the caffeine consumption for one day (mg). \nThe horizontal black bars represent the means for each category. "
+    caption = "Daily caffeine intake (mg) on days with or without homework/exams due. Each point \n on the plot represents a day's caffeine intake. Horizontal black bars \n show mean intake for each category."
   ) +
   theme_minimal(base_size = 14) +
   theme(
     legend.position = "none",
-    plot.title = element_text(face = "bold", hjust = 0.5, size = 12), plot.caption = element_text(size = 10, hjust = 0, margin = margin(t = 10))
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 12),
+    plot.caption = element_text(size = 10, hjust = 0, margin = margin(t = 10))
   )
 ```
+:::
+
+::: {.column width="45%"}
+```{r echo=FALSE}
+# Display table
+knitr::kable(summary_table, caption = "Table 1. Summary of Welch t-test comparing caffeine intake.")
+```
+:::
+:::::

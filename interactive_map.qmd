@@ -17,7 +17,7 @@ leaflet() |>
   addMarkers(lng = 4.9041, lat = 52.3676, popup = "Amsterdam, Netherlands. Visited my uncle, cousin, and other family. I was relatively young but remember biking through the city and walking alongside the canals vividly.  ") |>        # Amsterdam, Netherlands
   addMarkers(lng = -9.5018, lat = 52.0592, popup = "Killarney, Ireland. My dad and brother went on a week long bike ride throughout the countryside of Ireland while my oldest brother, my mom, and I stayed and explored the town.") |>           # Killarney, Ireland
   addMarkers(lng = -3.1883, lat = 55.9533, popup = "Edinburgh, Scotland. I went on a week long bike right with my dad through Scotland, camping alongside the road and sleeping in local hostels.") |>          # Edinburgh, Scotland
-  addMarkers(lng = -3.7837, lat = 52.1307, popup = "Wales, United Kingdom") |>        # Wales (general)
+  addMarkers(lng = -3.7837, lat = 52.1307, popup = "Wales, United Kingdom. Bike through partially and stayed in a small town house for a few days. Super small, super quiet, insanely breautiful.") |>        # Wales (general)
   addMarkers(lng = -89.0070, lat = 20.9674, popup = "Mérida, Mexico. This is where my mom is originally from, so I have travelled here several times. The last time I went was two years ago, where I traveled alone with both of my grandparents, and spent two weeks with my cousins.") |>              # Merida, Mexico
   addMarkers(lng = -119.2921, lat = 34.2746, popup = "Santa Paula, California, USA. This is my hometown. I lived here for 17 years until moving out to UCSB, however I visit at least once a month to see my immediate family. ") |>   # Ventura, California
   addMarkers(lng = -115.5708, lat = 51.1784, popup = "Banff, Canada. My immediate family and I took a month long road trip along the coastal highway up through Oregon, and Washington. After riding through the western portion of Canada we travelled back down through Montana, Colorado, and Utah.")                 # Banff, Canada
@@ -31,7 +31,7 @@ leaflet() |>
 
 Making Anywhere Feel like Home;
 
-This is the playlist that I listen to on the daily, regardless of where I may be.
+Having travelled a fair amount, I've come to realize that while amazing to be able to experience the joy of expxloring new places, there is never going to be somewhere that can replace my home. As a tool of grounding, recreation, and pure leasiure, this is the playlist that I created with the intention of being able to feel at home and listen to on the daily, regardless of where I may be.
 
 ::: embedded-html
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0pWwYNJ8ITj4v1blv0hK3p?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">

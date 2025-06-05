@@ -2,7 +2,7 @@
 title: "All About Me"
 ---
 
-If I had to sum up the few parts of my day that represent my life right now, it would be studying at the UCSB library, walking around IV with my beautiful girlfriend, vising my family on the weekend, and lifting in the local rec cen whenever I find possible!
+If I had to sum up the few parts of my day that represent my life right now, it would be studying at the UCSB library, walking around IV with my beautiful girlfriend, vising my family on my free weekends, and lifting in the local rec cen whenever I find possible!
 
 ---
 title: "Glimpse into my daily life!"
@@ -12,11 +12,11 @@ toc: false
 about: 
   template: jolla
   image-shape: rounded
-  image-width: 30em
+  image-width: 47em
 ---
 
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
+## ![My daily commute back from campus.](mtmsunsetride.jpeg){width="450"}![Mazzy (girlfriend's cat) eating my homework (jk)](mtmmazzy.jpeg){width="450"}
 
-## ![](mtmsunsetride.jpeg){width="450"}![](mtmmazzy.jpeg){width="450"}
+~On\ the\ left\ is\ a\ picture\ of\ my\ daily\ back\ to\ my\ house\ on\ Trigo\ Road\ from\ campus\ after\ a\ long\ day\ of\ studying.\ On\ the\ right\ is\ Mazzy\ (my\ partner's\ cat)\ attempting\ to\ distract\ me\ from\ my\ homework.~
